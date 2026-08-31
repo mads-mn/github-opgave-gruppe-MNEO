@@ -10,6 +10,10 @@ float posX =300;
 float posY =200;
 void setup() {
   size(800, 400);
+  for (int i = 0; i < boldMængde; i++) {
+    bolde[i] = new Bold();
+    bolde[i].display();
+  }
 }
 
 void draw() {
