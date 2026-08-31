@@ -1,7 +1,7 @@
 float x = 50;
 
 void setup() {
-  size(600, 400);
+  size(800, 400);
 }
 
 void draw() {
