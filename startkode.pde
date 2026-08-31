@@ -8,7 +8,7 @@ void setup() {
 }
 
 void draw() {
-  background(240);
+  background(random(0, 255), random(0, 255), random(0, 255));
 
   fill(random(0, 255), random(0, 255), random(0, 255));
   circle(x, y, r);
